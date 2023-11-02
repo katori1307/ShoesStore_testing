@@ -1,0 +1,22 @@
+.navbar .container-fluid .navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-collapse ul {
+    gap: 20px;
+}
+
+.navbar-collapse ul li a {
+    font-size: 17px;
+}
+
+.navbar .container-fluid a {
+    color: white !important;
+}
