@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import "./ItemStyle.css"
 
-export default class extends Component {
+export default class ProductItem extends Component {
     render() {
         const { name, price, image } = this.props.item;
         return (
