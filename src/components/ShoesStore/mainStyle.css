@@ -15,3 +15,9 @@
 .main-heading h1 {
     font-weight: bold;
 }
+
+.carousel-inner img {
+    max-height: 500px;
+    /* Adjust the height value as needed */
+    object-fit: cover;
+}

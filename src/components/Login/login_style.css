@@ -1,10 +1,3 @@
-body {
-  font-family: 'Your Font Family', sans-serif;
-
-
-  color: #D8D9DA;
-}
-
 #storeLogin {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./fashion-background-2.jpg");
   background-repeat: no-repeat;
@@ -70,25 +63,15 @@ body {
   transition: 0.2s ease;
 }
 
-.social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.social-icons a {
-  display: inline-block;
-  margin-right: 0.5rem;
-  color: #D8D9DA;
-  font-size: 1.5rem;
-}
-
-.social-icons a:last-child {
-  margin-right: 0;
-}
-
-.signup a {
+.signup span {
   text-decoration: none;
+  cursor: pointer;
+  color: #176B87;
+}
+
+.signup span:hover {
+  color: #213363;
+  transition: 0.2s ease;
 }
 
 
